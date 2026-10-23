@@ -28,10 +28,10 @@ export interface CssMaterialOptions {
 
 /**
  * Blur radius and surface opacity at each preset's own frost value. These are
- * the anchors the interpolation passes through, so `frost: 0.24` reproduces the
+ * the anchors the interpolation passes through, so `frost: 0.06` reproduces the
  * `regular` material exactly rather than approximating it.
  */
-const FROST_ANCHORS: readonly [number, number, number] = [0.04, 0.24, 0.66];
+const FROST_ANCHORS: readonly [number, number, number] = [0.04, 0.06, 0.16];
 const BLUR_ANCHORS: readonly [number, number, number] = [10, 22, 34];
 const ALPHA_ANCHORS: Record<MaterialTone, readonly [number, number, number]> = {
   dark: [0.3, 0.58, 0.72],

@@ -166,7 +166,7 @@ export function packLensUniforms(lenses: readonly WebGLLens[]): PackedLensUnifor
     optics[rectangleOffset + 2] = clamp(finite(lens.material.dispersion, 0.012), 0, 0.08);
     optics[rectangleOffset + 3] = clamp(finite(lens.radius, 0.25), 0.02, 1);
     surface[surfaceOffset] = clamp(finite(lens.material.edgeStrength, 0.46), 0, 1);
-    surface[surfaceOffset + 1] = clamp(finite(lens.material.frost, 0.24), 0, 1);
+    surface[surfaceOffset + 1] = clamp(finite(lens.material.frost, 0.06), 0, 1);
   }
 
   return { count, rectangles, optics, surface };
