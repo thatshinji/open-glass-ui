@@ -74,13 +74,13 @@
   --ogui-lg-lift-high:
     0 2px 4px rgb(0 0 0 / calc(0.16 * var(--ogui-glass-shadow, 1))),
     0 24px 64px -12px rgb(0 0 0 / calc(0.58 * var(--ogui-glass-shadow, 1)));
-  --ogui-lg-blur: blur(calc(12px * var(--ogui-glass-blur, 1)))
+  --ogui-lg-blur: blur(calc(8px * var(--ogui-glass-blur, 1)))
     saturate(calc(1.8 * var(--ogui-glass-saturation, 1)))
     brightness(calc(0.66 * var(--ogui-glass-brightness, 1)));
-  --ogui-lg-blur-heavy: blur(calc(36px * var(--ogui-glass-blur, 1)))
+  --ogui-lg-blur-heavy: blur(calc(20px * var(--ogui-glass-blur, 1)))
     saturate(calc(1.8 * var(--ogui-glass-saturation, 1)))
     brightness(calc(0.6 * var(--ogui-glass-brightness, 1)));
-  --ogui-lg-blur-surface: blur(calc(24px * var(--ogui-glass-blur, 1)))
+  --ogui-lg-blur-surface: blur(calc(20px * var(--ogui-glass-blur, 1)))
     saturate(calc(1.8 * var(--ogui-glass-saturation, 1)))
     brightness(calc(0.56 * var(--ogui-glass-brightness, 1)));
   --ogui-lg-surface: color-mix(
@@ -137,13 +137,13 @@
   --ogui-lg-lift-high:
     0 2px 4px rgb(24 32 44 / calc(0.06 * var(--ogui-glass-shadow, 1))),
     0 24px 64px -12px rgb(24 32 44 / calc(0.3 * var(--ogui-glass-shadow, 1)));
-  --ogui-lg-blur: blur(calc(12px * var(--ogui-glass-blur, 1)))
+  --ogui-lg-blur: blur(calc(8px * var(--ogui-glass-blur, 1)))
     saturate(calc(1.8 * var(--ogui-glass-saturation, 1)))
     brightness(calc(1.1 * var(--ogui-glass-brightness, 1)));
-  --ogui-lg-blur-heavy: blur(calc(36px * var(--ogui-glass-blur, 1)))
+  --ogui-lg-blur-heavy: blur(calc(20px * var(--ogui-glass-blur, 1)))
     saturate(calc(1.8 * var(--ogui-glass-saturation, 1)))
     brightness(calc(1.06 * var(--ogui-glass-brightness, 1)));
-  --ogui-lg-blur-surface: blur(calc(24px * var(--ogui-glass-blur, 1)))
+  --ogui-lg-blur-surface: blur(calc(20px * var(--ogui-glass-blur, 1)))
     saturate(calc(1.8 * var(--ogui-glass-saturation, 1)))
     brightness(calc(1.08 * var(--ogui-glass-brightness, 1)));
   --ogui-lg-surface: color-mix(
